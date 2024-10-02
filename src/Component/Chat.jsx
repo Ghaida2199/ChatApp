@@ -55,7 +55,7 @@ function Chat() {
                   {message.sender}
                   <time className="text-xs opacity-50">12:45</time>
                 </div>
-                <div className="chat-bubble bg-green-700 w-auto inline rounded text-white p-2">{message.text}</div>
+                <div className="chat-bubble bg-green-00 w-auto inline rounded text-white p-2">{message.text}</div>
                 <div className="chat-footer opacity-50">Delivered</div>
               </div>
             ))}
@@ -68,7 +68,7 @@ function Chat() {
               className='w-[30vh] h-[8vh]  rounded p-2 resize-none'
               placeholder="Type your message..."
             />
-            <button onClick={sendMessage1} className='w-[12vh] h-[8vh] rounded-l text-white bg-green-500'>Send</button>
+            <button onClick={sendMessage1} className='w-[12vh] h-[8vh] rounded-l text-white bg-[#b1b0b0]'>Send</button>
           </div>
         </div>
       </div>
@@ -109,7 +109,7 @@ function Chat() {
                   <time className="text-xs opacity-50">12:46</time>
                 </div>
                 <div className='flex flex-row-reverse'>
-                  <div className="chat-bubble bg-green-700 w-auto inline rounded text-white p-2">{message.text}</div>
+                  <div className="chat-bubble bg-green-00 w-auto inline rounded text-white p-2">{message.text}</div>
                 </div>
                 <div className="chat-footer opacity-50 flex flex-row-reverse">Seen at 12:46</div>
               </div>
@@ -123,7 +123,7 @@ function Chat() {
               className='w-[30vh] h-[8vh] rounded p-2 resize-none'
               placeholder="Type your message..."
             />
-            <button onClick={sendMessage2} className='w-[12vh] h-[8vh] rounded-l text-white bg-green-500'>Send</button>
+            <button onClick={sendMessage2} className='w-[12vh] h-[8vh] rounded-l text-white bg-[#b1b0b0]'>Send</button>
           </div>
         </div>
       </div>

@@ -35,7 +35,7 @@ function Name() {
 <div className='flex flex-col justify-center items-center w-[100%] '>
       <div className='flex  mt-3 flex-col w-[100%] justify-center items-center text-center bg-[#f0c4db] h-[90vh]'>
         <img className='w-[50%]' src="https://cdn-icons-png.flaticon.com/512/7827/7827960.png" alt="" />
-        <label className='font-sans text-3xl p-6 rounded'>Your Name1:</label>
+        <label className='font-sans text-3xl p-6 rounded'>First User: </label>
         <input
           onChange={MyInput}
           className='w-[40vh] p-2 m-4'
